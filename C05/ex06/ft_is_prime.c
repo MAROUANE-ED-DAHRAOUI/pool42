@@ -18,17 +18,17 @@ int ft_is_prime(int nb)
 	} 
 	return (1);
 }
-/*int main()
+int main()
 {
-	printf("%d -> %d\n", -544, ft_is_prime(-544));
-        printf("%d -> %d\n", -13, ft_is_prime(-13));
-        printf("%d -> %d\n", 0, ft_is_prime(0));
-        printf("%d -> %d\n", 1, ft_is_prime(1));
-        printf("%d -> %d\n", 2, ft_is_prime(2));
+	printf("%d -> %d\n", 13, ft_is_prime(13));
+        printf("%d -> %d\n", 11, ft_is_prime(11));
+        printf("%d -> %d\n", 7, ft_is_prime(7));
+        printf("%d -> %d\n", 5, ft_is_prime(5));
+        printf("%d -> %d\n", 3, ft_is_prime(3));
         printf("%d -> %d\n", 27, ft_is_prime(27));
         printf("%d -> %d\n", 1999, ft_is_prime(1999));
         printf("%d -> %d\n", 1337, ft_is_prime(1337));
         printf("%d -> %d\n", 2147483647, ft_is_prime(2147483647));
 	
 	return (0);
-}*/
+}
